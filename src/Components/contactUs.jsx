@@ -65,7 +65,7 @@ export default function ContactUs() {
         <div className="socials">
           <img
             src={instagram}
-            height="100px"
+            height="75px"
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
@@ -74,7 +74,7 @@ export default function ContactUs() {
           ></img>
           <img
             src={facebook}
-            height="100px"
+            height="75px"
             onClick={(e) => {
               e.preventDefault();
               window.location.href =
@@ -83,7 +83,7 @@ export default function ContactUs() {
           ></img>
           <img
             src={linkedin}
-            height="100px"
+            height="75px"
             onClick={(e) => {
               e.preventDefault();
               window.location.href = "http://google.com";

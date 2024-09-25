@@ -1,5 +1,5 @@
 .projectOne{
-    min-height: 100svh;
+    min-height: 100vh;
     background-color: rgb(225, 215, 10, 1);
 
     scroll-snap-align: start;
@@ -13,9 +13,9 @@
 }
 
 .projectTwo{
-    min-height: 100svh;
+    min-height: 100vh;
     background-color: #6d071a;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     box-sizing: border-box;
     padding: 10vh;
     gap: 30px;
@@ -26,7 +26,7 @@
 }
 
 .projectThree{
-    min-height: 100svh;
+    min-height: 100vh;
     background-color: #75aaf0;
 
     scroll-snap-align: start;
