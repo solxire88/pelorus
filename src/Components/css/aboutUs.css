@@ -1,7 +1,7 @@
 .aboutUs{
     min-height: 100vh;
     color: #C3E0E5;
-    scroll-snap-align: center;
+    scroll-snap-align: start;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

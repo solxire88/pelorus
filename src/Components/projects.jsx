@@ -48,7 +48,7 @@ function ProjectOne(){
 
             <div className='projectOneBanner'>
                 <div className='projectOneBannerItem'>
-                    <ReactPlayer url='https://vimeo.com/1012204679?share=copy#t=0' loop={true} controls={false} playing={true} muted={true}  height='100%' width='100%'></ReactPlayer>
+                    <ReactPlayer url='https://vimeo.com/1012204679?share=copy#t=0' playsInline loop={true} controls={false} playing={true} muted={true}  height='100%' width='100%'></ReactPlayer>
                 </div>
                     <img src={hammoudBanner} ></img>
             </div>
@@ -124,10 +124,10 @@ function ProjectThree(){
 
         <div className='projectThreeBanner'>
             <div className='projectThreeBannerItem'>
-                <ReactPlayer url='https://vimeo.com/1012738129?share=copy#t=0' loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
+                <ReactPlayer url='https://vimeo.com/1012738129?share=copy#t=0' playsInline loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
             </div>
             <div className='projectThreeBannerItem'>
-                <ReactPlayer url='https://vimeo.com/1012740785?share=copy#t=0' loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
+                <ReactPlayer url='https://vimeo.com/1012740785?share=copy#t=0' playsInline loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
             </div>
 
         </div>
