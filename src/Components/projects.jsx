@@ -1,9 +1,9 @@
 import ReactPlayer from 'react-player'
 import './css/projects.css'
-import mamaLogo from '/home/solaire/repos/pelorus/src/assets/MamaLogo.png'
-import hammoudBanner from '/home/solaire/repos/pelorus/src/assets/Pics/HammoudBoualemBanner.jpg'
-import mamaBanner from '/home/solaire/repos/pelorus/src/assets/Pics/MamaSopiBanner.jpg'
-import mostaLogo from '/home/solaire/repos/pelorus/src/assets/MostaLogo.png'
+import mamaLogo from '../assets/MamaLogo.png'
+import hammoudBanner from '../assets/Pics/HammoudBoualemBanner.jpg'
+import mamaBanner from '../assets/Pics/MamaSopiBanner.jpg'
+import mostaLogo from '../assets/MostaLogo.png'
 
 export default function Projects(){
 

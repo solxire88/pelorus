@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '/home/solaire/repos/pelorus/src/assets/Pelorus.png'
+import logo from './assets/Pelorus.png'
 import AboutUs from './Components/aboutUs.jsx'
 import Benefits from './Components/benefits.jsx'
 import Projects from './Components/projects.jsx'
