@@ -26,13 +26,13 @@
 }
 
 .contactUsLeft{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 40%;
     margin: 0px 0px 0px 50px;
 }
 
 .contactUsRight{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 40%;
     margin: 0px 50px 00px 0px;
     display: flex;
@@ -110,7 +110,7 @@
     text-align: center;
     height: 10%;
     margin-bottom: 40px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 @media (width < 1024px) {
