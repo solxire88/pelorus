@@ -5,11 +5,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: flex-start;
     /* padding: 20px; */
 }
 
 .aboutUsLeft{
-    /* border: 1px solid; */
+    border: 1px solid;
     width: 550px;
     margin: 100px 0px 50px 50px;
     padding-top: 30px;

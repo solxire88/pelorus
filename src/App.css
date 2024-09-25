@@ -51,7 +51,7 @@ body {
   width: 100vw;
 
   background-size: cover;
-  height: 210svh;
+  height: 220vh;
   margin: 0;
   scroll-snap-type: y mandatory;
 }
