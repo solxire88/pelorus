@@ -1,0 +1,138 @@
+html{
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Oswald;
+  src: url(/home/solaire/repos/pelorus/src/assets/font/Oswald/Oswald-VariableFont_wght.otf)
+}
+
+@font-face {
+  font-family: aktivRegular;
+  src: url(/home/solaire/repos/pelorus/src/assets/font/Aktiv/AktivGrotesk-Light.otf)
+}
+
+@font-face {
+  font-family: aktivBold;
+  src: url(/home/solaire/repos/pelorus/src/assets/font/Aktiv/AktivGrotesk-BoldItalic.otf)
+}
+
+@font-face {
+  font-family: Optima;
+  src: url(/home/solaire/repos/pelorus/src/assets/font/optima/Optima Medium.ttf)
+}
+
+body{
+  font-family: 'aktivRegular';
+  font-size: 20px;
+  font-weight: 100;
+  overflow-x: hidden;
+}
+
+.bigContainer{
+    /* background-image: linear-gradient(#2A306F 1%, #070C3B); */
+    filter: contrast(160%) brightness(100%);
+    background: 
+    linear-gradient(0deg,
+    rgba(13, 15, 60, 0.80) 0%,   
+    rgba(15, 17, 65, 0.79) 10%, 
+    rgba(17, 19, 70, 0.78) 20%, 
+    rgba(19, 21, 75, 0.77) 30%, 
+    rgba(21, 23, 80, 0.76) 40%, 
+    rgba(23, 25, 90, 0.75) 50%, 
+    rgba(25, 28, 100, 0.74) 60%, 
+    rgba(28, 30, 105, 0.73) 70%, 
+    rgba(32, 34, 108, 0.72) 80%, 
+    rgba(35, 37, 110, 0.71) 90%, 
+    rgba(42, 48, 111, 0.7) 100%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='4.64' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");    width: 100vw;
+
+    background-size: cover;
+    height: 210svh;
+    margin: 0;
+    scroll-snap-type: y mandatory;
+}
+
+.titlePelorus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  /* border: 1px solid black; */
+  scroll-snap-align: start;
+  overflow-y: scroll;
+}
+
+.pelorusImage{
+  opacity: 1;
+  animation: fade-down 2s;
+}
+
+@keyframes fade-down {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+  html{
+    scroll-snap-type: y mandatory;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  html{
+    scroll-snap-type: y mandatory;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  html{
+    scroll-snap-type: y mandatory;
+  }
+
+  body{
+    font-size: 19px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  html{
+    scroll-snap-type: y proximity;
+  }
+
+  body{
+    font-size: 18px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  html{
+    scroll-snap-type: y proximity;
+  }
+
+  body{
+    font-size: 17px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  html{
+    scroll-snap-type: y proximity;
+  }
+
+  body{
+    font-size: 14px;
+  }
+}

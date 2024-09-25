@@ -1,0 +1,133 @@
+.contactUs{
+    display: flex;
+    min-height: 100svh;
+    scroll-snap-align: center;
+    background: 
+    linear-gradient(0deg,
+      rgba(3, 5, 30, 0.9) 0%,    
+      rgba(4, 6, 33, 0.89) 10%, 
+      rgba(5, 7, 36, 0.88) 20%, 
+      rgba(6, 8, 39, 0.87) 30%, 
+      rgba(7, 9, 42, 0.86) 40%, 
+      rgba(8, 10, 45, 0.85) 50%, 
+      rgba(9, 11, 48, 0.84) 60%, 
+      rgba(10, 12, 51, 0.83) 70%, 
+      rgba(11, 13, 54, 0.82) 80%, 
+      rgba(12, 14, 57, 0.81) 90%, 
+      rgba(13, 15, 60, 0.80) 100%),
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='4.64' numOctaves='6' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    width: 100vw;
+    color: #C3E0E5;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding: 40px 40px 0px 40px;
+    box-sizing: border-box;
+}
+
+.contactUsLeft{
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 50px 0px 50px 50px;
+}
+
+.contactUsRight{
+    /* border: 1px solid; */
+    width: 40%;
+    margin: 50px 50px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.contactUsLeftTitle{
+    font-family: 'aktivBold';
+    font-size: 3.815rem;
+}
+
+.contactUsInputs{
+    display: flex;
+    flex-direction: column;
+    color: inherit;
+    padding: 30px;
+
+}
+
+
+.input{
+    background-color: transparent;
+    box-shadow: none;
+    border: 0.25rem solid;
+    color: inherit;
+    width: 90% !important;
+    min-width: 50%;
+    height: 35px;
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    box-sizing:content-box;
+    padding: 5px 10px 3px 10px;
+}
+
+.input:focus{
+    outline: none
+}
+
+.submit{
+    background-color: transparent;
+    border: 0.25rem solid;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    height: 40px;
+    min-width: 100px;
+    font-size: 1.25rem;
+    
+}
+
+
+.quote{
+    /* border: 1px solid; */
+    text-align: center;
+    font-family: 'Optima';
+    padding: 30px;
+    font-size: 1.9rem;
+}
+
+.socials{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#message{
+    height: 100px;
+}
+
+.footer{
+    width: 100vw;
+    font-size: 0.8rem;
+    text-align: center;
+    height: 10%;
+    /* border: 1px solid; */
+}
+
+@media (width < 1024px) {
+    .contactUs{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .contactUsLeft{
+        width: 90%;
+        margin: 0;
+        justify-content: center;
+    }
+    .contactUsLeftTitle{
+        text-align: center;
+    }
+
+
+    .contactUsRight{
+        width: 90%;
+        margin: 0;
+    }
+}
