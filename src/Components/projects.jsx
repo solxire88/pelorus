@@ -48,7 +48,7 @@ function ProjectOne(){
 
             <div className='projectOneBanner'>
                 <div className='projectOneBannerItem'>
-                    <ReactPlayer url='https://vimeo.com/1012204679?share=copy#t=0' playsInline loop={true} controls={false} playing={true} muted={true}  height='100%' width='100%'></ReactPlayer>
+                    <ReactPlayer url='https://vimeo.com/1012204679?share=copy#t=0&autoplay=1&loop=1&background=1' playsInline loop={true} controls={false} playing={true} muted={true}  height='100%' width='100%'></ReactPlayer>
                 </div>
                     <img src={hammoudBanner} ></img>
             </div>
@@ -65,7 +65,7 @@ function ProjectTwo(){
         <div  className='projectTwoUp'>
             <div className='projectTwoHeader'>
                 <div className='projectTwoTitle'>
-                    <img src={mamaLogo} height='100px'></img>
+                    <img src={mamaLogo} draggable='false' height='100px'></img>
                 </div>
                 <div className='projectTwoText'>
                 Our new Mama Spaghetti ad showcases its perfect al dente texture and delicious versatility. With mouthwatering visuals of family meals, we highlight the authentic taste that makes Mama the top choice for creating memorable dishes.                </div>
@@ -100,7 +100,7 @@ function ProjectThree(){
         <div  className='projectThreeUp'>
             <div className='projectThreeHeader'>
                 <div className='projectThreeTitle'>
-                    <img src={mostaLogo} height='100px'></img>
+                    <img src={mostaLogo} draggable='false' height='100px'></img>
                 </div>
                 <div className='projectThreeText'>
                 Mosta Glaces celebrates the essence of Algerian craftsmanship, showcasing its commitment to producing fresh, locally made ice creams. With a focus on quality and authenticity, it highlights the brand's dedication to preserving the rich flavors of Algeria. The vibrant presentation evokes a sense of pride and connection to homegrown traditions, inviting consumers to indulge in the freshness of a truly Algerian product.
@@ -124,10 +124,10 @@ function ProjectThree(){
 
         <div className='projectThreeBanner'>
             <div className='projectThreeBannerItem'>
-                <ReactPlayer url='https://vimeo.com/1012738129?share=copy#t=0' playsInline loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
+                <ReactPlayer url='https://vimeo.com/1012738129?share=copy#t=0&autoplay=1&loop=1&background=1' playsInline loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
             </div>
             <div className='projectThreeBannerItem'>
-                <ReactPlayer url='https://vimeo.com/1012740785?share=copy#t=0' playsInline loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
+                <ReactPlayer url='https://vimeo.com/1012740785?share=copy#t=0&autoplay=1&loop=1&background=1' playsInline loop={true} controls={false} playing={true} muted={true}  width='100%' height='100%'></ReactPlayer>
             </div>
 
         </div>

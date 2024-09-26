@@ -61,7 +61,7 @@ export default function ContactUs() {
         </div>
       </div>
       <div className="contactUsRight">
-        <div className="quote">FROM YOUR VISION TO REALITY</div>
+        <div className="quote">FORM YOUR VISION TO REALITY</div>
         <div className="socials">
           <img
             src={instagram}
