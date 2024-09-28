@@ -34,6 +34,10 @@
     /* text-indent: 25px; */
 }
 
+.aboutUsLowerText{
+    font-family: 'aktivBold';
+}
+
 .aboutUsRight{
     /* border: 1px solid; */
     margin: 100px 70px 100px 0px;
@@ -68,6 +72,8 @@
 @media (max-width: 1024px) {
     .aboutUsLeft, .aboutUsRight{
         margin: 0;
+        text-align: center;
+
     }
 }
 
@@ -75,6 +81,8 @@
 @media (max-width: 768px) {
     .aboutUsLeft, .aboutUsRight{
         margin: 0;
+        text-align: center;
+
     }
 }
 
@@ -82,6 +90,8 @@
 @media (max-width: 640px) {
     .aboutUsLeft, .aboutUsRight{
         margin: 0;
+        text-align: center;
+
     }
 }
 
@@ -90,5 +100,6 @@
     .aboutUsLeft, .aboutUsRight{
         margin: 0;
         padding: 20px;
+        text-align: center;
     }
 }

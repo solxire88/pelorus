@@ -68,7 +68,7 @@ body {
 
 .pelorusImage {
   opacity: 1;
-  animation: fade-down 2s;
+  /* animation: fade-down 2s; */
 }
 
 @keyframes fade-down {
