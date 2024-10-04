@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import logo from "./assets/Pelorus.png";
+import loadingLogo from "./assets/PelorusFavIcon.svg"
 import AboutUs from "./Components/aboutUs.jsx";
 import Benefits from "./Components/benefits.jsx";
 import Projects from "./Components/projects.jsx";
@@ -23,7 +24,7 @@ export default function App() {
     <>
       {loading ? (
         <div className="loading">
-          <img src="/src/facicon.svg" height="50"></img>
+          <img src={loadingLogo} height="50"></img>
           <BarLoader color="#FFFFFF" width="75"></BarLoader>
         </div>
       ) : (

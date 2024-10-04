@@ -4,6 +4,7 @@ import mamaLogo from "../assets/MamaLogo.png";
 import hammoudBanner from "../assets/Pics/HammoudBoualemBanner.jpg";
 import mamaBanner from "../assets/Pics/MamaSopiBanner.jpg";
 import mostaLogo from "../assets/MostaLogo.png";
+import hammoudLogo from "../assets/HammoudLogo.png"
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 
@@ -42,7 +43,9 @@ function ProjectOne() {
           animate={mainControls}
           transition={{ duration: 1.5, delay: 0.25 }}
         >
-          <div className="projectOneTitle">Hammoud Boualem AD</div>
+          <div className="projectOneTitle">
+            <img src={hammoudLogo} draggable="false" height="100px"></img>
+          </div>
           <div className="projectOneText">
             Hamoud Boualem's commercial celebrates Algerian heritage with scenes
             of family and tradition, emphasizing the quality and authenticity of
