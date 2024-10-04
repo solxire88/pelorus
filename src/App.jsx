@@ -23,7 +23,7 @@ export default function App() {
     <>
       {loading ? (
         <div className="loading">
-          <img src="src/facicon.svg" height="50"></img>
+          <img src="/src/facicon.svg" height="50"></img>
           <BarLoader color="#FFFFFF" width="75"></BarLoader>
         </div>
       ) : (
