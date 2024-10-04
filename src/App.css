@@ -30,6 +30,19 @@ body {
   overflow-x: hidden;
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100vh;  
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
 .bigContainer {
   /* background-image: linear-gradient(#2A306F 1%, #070C3B); */
   filter: contrast(160%) brightness(100%);
@@ -69,6 +82,7 @@ body {
 .pelorusImage {
   opacity: 1;
   /* animation: fade-down 2s; */
+  /*  */
 }
 
 @keyframes fade-down {
